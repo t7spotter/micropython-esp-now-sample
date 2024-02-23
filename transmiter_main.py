@@ -13,3 +13,5 @@ esp.active(True)
 
 peer = "Replace the receiver MAC address here"   # MAC address of peer's wifi interface
 esp.add_peer(peer)      # Must add_peer() before send()
+
+button_pin = Pin(5, Pin.IN, Pin.PULL_UP)
