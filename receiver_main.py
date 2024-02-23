@@ -8,3 +8,5 @@ sta.active(True)
 
 esp = espnow.ESPNow()
 esp.active(True)
+
+led = Pin(18, Pin.OUT)
